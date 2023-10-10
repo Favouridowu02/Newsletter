@@ -1,0 +1,46 @@
+html,
+body {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-signin {
+  max-width: 330px;
+  padding: 1rem;
+
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+input {
+  width: 100%;
+  display: block;
+  padding: 2px 5px;
+  margin-bottom: 10px;
+  height: 2rem;
+
+}
+input[type="submit"] {
+  background-color: rgb(4, 4, 240);
+  color: white;
+  border: none;
+  border: 2px solid rgb(1, 1, 175);
+  width: 330px;
+  height: 2.3rem;
+}
+
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.pages {
+  height: 20px;
+  width: 500px;
+  background-color: gray;
+}
